@@ -1,0 +1,68 @@
+# ─── Framework API ─────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# ─── Validation des données ────────────────────────────────────
+pydantic==2.7.1
+pydantic-settings==2.3.0
+
+# ─── HTTP Client ───────────────────────────────────────────────
+httpx==0.27.0
+aiohttp==3.9.5
+
+# ─── Base vectorielle ──────────────────────────────────────────
+asyncpg
+pgvector
+
+# ─── Cache et sessions ─────────────────────────────────────────
+redis==5.0.4
+
+# ─── Scheduler ─────────────────────────────────────────────────
+apscheduler==3.10.4
+
+# ─── Tokenisation et NLP ───────────────────────────────────────
+tiktoken==0.7.0
+beautifulsoup4==4.12.3
+html2text==2024.2.26
+lxml==5.2.2
+
+# ─── Retry et résilience ───────────────────────────────────────
+tenacity==8.3.0
+
+# ─── Variables d'environnement ─────────────────────────────────
+python-dotenv==1.0.1
+
+# ─── Logging ───────────────────────────────────────────────────
+loguru==0.7.2
+
+# ─── Auth ──────────────────────────────────────────────────────
+pyjwt==2.8.0
+
+# ─── Tests ─────────────────────────────────────────────────────
+pytest==8.2.2
+pytest-asyncio==0.23.7
+pytest-mock==3.14.0
+pytest-cov==5.0.0
+
+# ─── Qualité du code ───────────────────────────────────────────
+black==24.4.2
+isort==5.13.2
+flake8==7.0.0
+
+# ─── Fichiers ──────────────────────────────────────────────────
+pymupdf
+python-docx
+openpyxl
+
+# ─── LangChain ─────────────────────────────────────────────────
+langchain-text-splitters
+
+ldap3
+
+rank-bm25        
+nltk              
+ragas               
+pandas            
+matplotlib       
+tenacity
+rapidfuzz
